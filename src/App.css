@@ -877,10 +877,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .videopara,
   .subspara,
   .channelname {
-    position: static; /* Reset positioning for smaller screens */
+    position: static;
     left: 0;
     bottom: 0;
-    width: 450px; /* Full width for smaller screens */
+    width: 450px;
   }
 
   .subscribebutton {
@@ -918,5 +918,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     display: none;
     width: 400px;
     padding-top: 80px;
+  }
+  .newsletter-button {
+    position: absolute;
+    top: 43px;
   }
 }
