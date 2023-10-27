@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
-import header2 from "../assets/img/header2.png";
-import dkimage from "../assets/img/dkimage.png";
+
+import myimageonbanner from "../assets/img/myimageonbanner.png";
+
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -13,6 +13,7 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
+  //? Fill this array if you want to have rotating text
   const toRotate = ["Divyanshu Kesarwani"]; //["Full Stack Developer", "Web Designer", "UI/UX Designer"];
   const period = 2000;
 
@@ -67,6 +68,7 @@ export const Banner = () => {
                 >
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
+                    {/* Unccomment below line to show the name */}
                     {/* {`Hi! I'm Divyanshu Kesarwani`} */}
                     <span
                       className="txt-rotate"
@@ -81,11 +83,7 @@ export const Banner = () => {
                     the industry. I thrive on the intersection of technology and
                     creativity, specializing in React and Node.js, while
                     sprinkling in some machine learning expertise to turn
-                    concepts into reality.
-                    {/* I'm passionate about solving complex
-                    problems, building elegant solutions, and constantly
-                    expanding my tech toolkit. Let's code the future together!
-                    🚀💻 */}
+                    concepts into reality 🚀💻.
                   </p>
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />
@@ -102,7 +100,7 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__zoomIn" : ""
                   }
                 >
-                  <img src={header2} alt="Header Img" />
+                  <img src={myimageonbanner} alt="My Img" />
                 </div>
               )}
             </TrackVisibility>
