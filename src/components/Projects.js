@@ -1,14 +1,13 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
+
 import onenews from "../assets/img/onenews.png";
 import onecinema from "../assets/img/onecinema.png";
 import k2n from "../assets/img/k2n.png";
 import notebook from "../assets/img/notebook.png";
 import sensor from "../assets/img/sensor.png";
 
-import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -133,7 +132,7 @@ export const Projects = () => {
       <img
         className="background-image-right"
         src={colorSharp2}
-        alt="Background Image"
+        alt="Background"
       />
     </section>
   );
