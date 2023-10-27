@@ -5,7 +5,6 @@ import ts from "../assets/img/ts.svg";
 import react from "../assets/img/react.svg";
 import node from "../assets/img/node.svg";
 import express from "../assets/img/express.svg";
-import sql from "../assets/img/sql.svg";
 import db from "../assets/img/db.svg";
 import mongo from "../assets/img/mongo.svg";
 import gcp from "../assets/img/gcp.svg";
@@ -125,7 +124,7 @@ export const Skills = () => {
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+      <img className="background-image-left" src={colorSharp} alt="Bg color" />
     </section>
   );
 };
