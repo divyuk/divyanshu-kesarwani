@@ -2,32 +2,31 @@ import ip from "../assets/img/IP.jpg";
 import ss from "../assets/img/ss.jpg";
 import stl from "../assets/img/stl.png";
 import user from "../assets/img/user.svg";
-import video from "../assets/img/video.svg";
-import video2 from "../assets/img/video2.svg";
+import videouploaded from "../assets/img/videouploaded.svg";
 import colorSharp from "../assets/img/color-sharp.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import the carousel styles
 import { Carousel } from "react-responsive-carousel";
 
 export const Courses = () => {
-  const responsive = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-    },
-  };
+  // const responsive = {
+  //   superLargeDesktop: {
+  //     // the naming can be any, depends on you.
+  //     breakpoint: { max: 4000, min: 3000 },
+  //     items: 5,
+  //   },
+  //   desktop: {
+  //     breakpoint: { max: 3000, min: 1024 },
+  //     items: 3,
+  //   },
+  //   tablet: {
+  //     breakpoint: { max: 1024, min: 464 },
+  //     items: 2,
+  //   },
+  //   mobile: {
+  //     breakpoint: { max: 464, min: 0 },
+  //     items: 1,
+  //   },
+  // };
 
   return (
     <section className="skill" id="courses">
@@ -97,7 +96,11 @@ export const Courses = () => {
 
               <section className="videoinfo">
                 <p className="videopara">
-                  <img src={video2} alt="Video" className="videoupload" />
+                  <img
+                    src={videouploaded}
+                    alt="Video"
+                    className="videoupload"
+                  />
                   120+ Videos Uploaded
                 </p>
                 <p className="subspara">
@@ -126,7 +129,11 @@ export const Courses = () => {
         </div>
       </div>
 
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+      <img
+        className="background-image-left"
+        src={colorSharp}
+        alt="background"
+      />
     </section>
   );
 };
