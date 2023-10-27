@@ -1,15 +1,12 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from "../assets/img/logo.svg";
-import logo2 from "../assets/img/logo2.svg";
-import logo3 from "../assets/img/logo3.svg";
+
 import dk1 from "../assets/img/dk1.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import gitsvg from "../assets/img/gitsvg.svg";
 import youtube from "../assets/img/youtube.svg";
-
 import leetcode from "../assets/img/leetcode.svg";
-import lc from "../assets/img/lc.svg";
+
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
 
