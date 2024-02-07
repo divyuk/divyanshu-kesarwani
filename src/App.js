@@ -2,7 +2,8 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
-import { Skills } from "./components/Skills";
+// import { Skills } from "./components/Skills";
+import { StaticSkills } from "./components/StaticSkills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
@@ -13,7 +14,8 @@ function App() {
     <div className="App">
       <NavBar />
       <Banner />
-      <Skills />
+      {/* <Skills /> */}
+      <StaticSkills />
       <Projects />
       <Courses />
       <Contact />
