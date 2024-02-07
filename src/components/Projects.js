@@ -38,7 +38,7 @@ export const Projects = () => {
       imgUrl: k2n,
       type: "Python",
       // live: "https://onecinema.vercel.app/",
-      github: "https://github.com/divyuk/one-cinema",
+      github: "https://github.com/divyuk/kindle-to-notion",
     },
     {
       title: "OnIpynb Renderer",
