@@ -7,6 +7,7 @@ import onecinema from "../assets/img/onecinema.png";
 import k2n from "../assets/img/k2n.png";
 import notebook from "../assets/img/notebook.png";
 import sensor from "../assets/img/sensor.png";
+import pizzaApp from "../assets/img/pizzaApp.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
@@ -56,6 +57,14 @@ export const Projects = () => {
       github: "https://github.com/divyuk/sensor-fault-detection",
     },
     // Add more projects with different types
+    {
+      title: "The Pizza App",
+      description: "Frontend Development",
+      imgUrl: pizzaApp,
+      type: "React",
+      live: "https://the-pizza-app.vercel.app/",
+      github: "https://github.com/divyuk/pizza-app",
+    },
   ];
 
   const projectTypes = [
