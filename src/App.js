@@ -8,6 +8,7 @@ import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { Courses } from "./components/Courses";
+import Timeline from "./components/Timeline";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Banner />
       {/* <Skills /> */}
       <StaticSkills />
+      <Timeline />
       <Projects />
       <Courses />
       <Contact />

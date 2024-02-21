@@ -8,6 +8,8 @@ import express from "../assets/img/express.svg";
 import db from "../assets/img/db.svg";
 import mongo from "../assets/img/mongo.svg";
 import gcp from "../assets/img/gcp.svg";
+import docker from "../assets/img/docker.png";
+import tailwind from "../assets/img/tailwind.svg";
 
 // import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -58,6 +60,11 @@ export const StaticSkills = () => {
                 <IndiviualSkill skillName={"SQL"} skillImage={db} />
                 <IndiviualSkill skillName={"MongoDB"} skillImage={mongo} />
                 <IndiviualSkill skillName={"Google Cloud"} skillImage={gcp} />
+                <IndiviualSkill skillName={"Docker"} skillImage={docker} />
+                <IndiviualSkill
+                  skillName={"TailwindCss"}
+                  skillImage={tailwind}
+                />
               </div>
             </div>
           </div>
