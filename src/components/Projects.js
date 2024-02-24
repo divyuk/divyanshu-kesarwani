@@ -8,6 +8,7 @@ import k2n from "../assets/img/k2n.png";
 import notebook from "../assets/img/notebook.png";
 import sensor from "../assets/img/sensor.png";
 import pizzaApp from "../assets/img/pizzaApp.png";
+import jungleStay from "../assets/img/jungleStay.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
@@ -64,6 +65,14 @@ export const Projects = () => {
       type: "React",
       live: "https://the-pizza-app.vercel.app/",
       github: "https://github.com/divyuk/pizza-app",
+    },
+    {
+      title: "The Jungle Stay",
+      description: "Frontend Development",
+      imgUrl: jungleStay,
+      type: "React",
+      live: "https://the-jungle-stay.vercel.app/",
+      github: "https://github.com/divyuk/the-jungle-stay",
     },
   ];
 
