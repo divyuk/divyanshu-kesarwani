@@ -101,11 +101,11 @@ export const Courses = () => {
                     alt="Video"
                     className="videoupload"
                   />
-                  120+ Videos Uploaded
+                  45+ Videos Uploaded
                 </p>
                 <p className="subspara">
                   <img src={user} alt="user" className="subscribeduser" />
-                  120+ Subscriber joined
+                  170+ Subscriber joined
                 </p>
               </section>
 

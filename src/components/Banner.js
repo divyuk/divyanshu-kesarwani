@@ -79,7 +79,7 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    I'm a software engineer with over 3 years of experience in
+                    I'm a full stack developer with over 3 years of experience in
                     the industry. I thrive on the intersection of technology and
                     creativity, specializing in React and Node.js, while
                     sprinkling in some machine learning expertise to turn
