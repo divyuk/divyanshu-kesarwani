@@ -9,6 +9,7 @@ import notebook from "../assets/img/notebook.png";
 import sensor from "../assets/img/sensor.png";
 import pizzaApp from "../assets/img/pizzaApp.png";
 import jungleStay from "../assets/img/jungleStay.png";
+import memorygamemagic from "../assets/img/magicMatch.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
@@ -73,6 +74,14 @@ export const Projects = () => {
       type: "React",
       live: "https://the-jungle-stay.vercel.app/",
       github: "https://github.com/divyuk/the-jungle-stay",
+    },
+    {
+      title: "The Memory  Game",
+      description: "Frontend Development",
+      imgUrl: memorygamemagic,
+      type: "React",
+      live: "https://memorygamemagic.vercel.app/",
+      github: "https://github.com/divyuk/memory-game",
     },
   ];
 
