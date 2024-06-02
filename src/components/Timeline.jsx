@@ -1,6 +1,6 @@
 function Timeline() {
   return (
-    <section className="project" id="courses">
+    <section className="project" id="timeline">
       <div className="container">
         <div className="row">
           <div className="col-12">
